@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'DropBitLSD'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_027d39aa4f644187a7e71eacf7bd882c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3df54b774ff94410a2d357a3d37f6ebf }}
         package: ${{env.DOTNET_ROOT}}/myapp 
